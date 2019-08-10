@@ -1,23 +1,41 @@
 body {
-    background-color: teal;
+    background-color: tan;
     margin: 0;
 }
 
 header {
-    background-color: #ECEA5F;
+    background-color: #ffffff;
     padding: 1em;
     /* padding-bottom: 0; */
     overflow: auto;
+    /* image: "/images/boston-terrier-4220021_960_720.png" alt="boston terrier cartoon" */
+}
+
+
+
+#jumbotron {
+  height: 400px;
+  background-image: url("https://cdn.pixabay.com/photo/2018/06/14/13/03/bowls-3474823_960_720.jpg");
+  background-size: cover;
+  background-position: 50% 70%
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+p {
+  margin: 0.5em 0;
 }
 
 h1 {
-    margin: 0;
     float: left;
     width: 400px;
 }
 
 nav {
-    background-color: #ffffff;
+    background-color: #bbbbbb;
+    border-radius: 25px 0px 0px 25px;
     margin: 0 -1em;
     margin-left: 400px;
 }
@@ -43,4 +61,31 @@ nav a {
 nav a:hover {
   background-color: black;
   color: white;
+}
+
+main {
+  background-color: white;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-3-col {
+  /* height: 400px; */
+}
+
+.dogpng{
+  position: absolute;
+  		top: 350px;
+  		right: 20px;
+  height: 250px;
+  width: 250px;
+  z-index: 100;
+}
+
+.fun {
+  font-family: 'Pacifico', cursive;
 }

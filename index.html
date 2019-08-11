@@ -31,7 +31,7 @@
                 <img src="/images/IMG_8131.jpeg" alt="Boston Terrier with a graduation cap">
 
               </div>
-              <h2>Why home cooked meals?</h2>
+              <h2 style="margin-top: 100px">Why home cooked meals?</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum lacus et vehicula euismod. Aliquam viverra risus et nisl bibendum consequat. Praesent convallis, est ut varius mattis, risus est molestie massa, vitae aliquam ipsum magna sed felis. Suspendisse vel dolor ante. Nunc tincidunt bibendum ex sed elementum. Fusce et mollis tellus. Duis eu urna diam. In hac habitasse platea dictumst. Fusce lobortis sem eu nisi pellentesque, non efficitur ipsum luctus. Donec pharetra felis eget urna cursus, id varius mauris consectetur. Ut et nulla mi. </p>
 
 <p>Integer placerat lacus quis dui rhoncus posuere. Sed risus neque, rutrum eget cursus sit amet, tincidunt in tortor. Sed finibus nisi in metus feugiat vestibulum. Vivamus eget dolor at libero venenatis cursus eu eu ipsum. Cras vestibulum rutrum laoreet. In hac habitasse platea dictumst. Donec vestibulum nisl nec ultricies mollis. Proin pretium ligula lacus, sed sollicitudin augue dignissim at. Sed nec lobortis turpis. Donec vel sapien mi. Integer ut ultricies mauris.</p>
@@ -42,8 +42,18 @@
 
 <p class="fun">Aliquam facilisis tincidunt arcu pretium vestibulum. Curabitur eu est mauris. Vestibulum id iaculis eros, sed aliquam ex. Etiam sit amet semper risus. Etiam vitae velit accumsan, mollis nibh quis, gravida orci. Nam vitae laoreet ligula. Duis congue facilisis leo, et pellentesque metus viverra vitae. Phasellus placerat, tortor vel malesuada sodales, est tellus blandit est, et semper elit mi eu sem. Vestibulum lobortis nulla non libero accumsan, eleifend laoreet enim porttitor. Praesent vitae nunc eu ipsum pellentesque elementum. Ut ac elit rhoncus, condimentum est eu, tempus nunc. Vestibulum at orci sed turpis vehicula mollis vel ac nunc.</p>
           </main>
+          <aside>
+              <h3>Calendar of Events</h3>
+          </aside>
+
           <footer>
+              <strong>Copyright <span id="copyright-year">2017</span></strong> - All rights reserved
 
           </footer>
+
+          <script>
+              document.getElementById("copyright-year").textContent = new Date().getFullYear();
+          </script>
+
     </body>
 </html>
